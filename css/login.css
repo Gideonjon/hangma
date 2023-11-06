@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 300px;
+    margin: 0 auto;
+    margin-top:3rem;
+}
+.form .name h2{
+    color: orangered;
+    font-weight: bold;
+}
+.form .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form .flex p{
+    font-size: 1.2rem;
+    font-weight:1000;
+    letter-spacing: 0.7px;
+    color:rgb(13, 13, 27);
+}
+.form .flex a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.input-form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem
+}
+.input-form .box{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem
+}
+.input-form .box label{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.input-form .box input{
+    outline: none;
+    border-radius: 0.3rem;
+    border-width: 1.4px;
+    padding: 0.9rem 0.4rem;
+}
+.btn button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background:rgb(187, 55, 7);
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    border-radius:0.3rem;
+}
+.redirect{
+    margin: 0 auto;
+}
+.redirect a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(156, 107, 107);
+    cursor: pointer;
+}
