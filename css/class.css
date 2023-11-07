@@ -170,15 +170,18 @@ body{
 .class-card .bottom{
     display: flex;
     flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 0.7rem;
     align-items: flex-start;
+}
+.class-card .bottom .time{
+    font-size: 0.9rem;
 }
 .class-card .bottom .title{
     font-weight: bold;
     font-size: 1.1rem;
 }
 .class-card .bottom .desc{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 400px;
     font-weight:550;
     font-size: 0.9rem;

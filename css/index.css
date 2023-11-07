@@ -96,7 +96,7 @@ header .links button{
 .section-one{
     width: 100%;
    padding-bottom:6rem;
-   background: rgb(20, 15, 15);
+   background:rgb(214, 206, 206);
 }
 .section-one .hero img{
     width: 100%;
@@ -127,11 +127,13 @@ header .links button{
     gap:1.7rem
 }
 .section-one .why .bottom .flex img{
-    width: 40px;
+    width: 31px;
+    height: 31px;
     object-fit: cover;
 }
 .section-one .why .bottom .flex p{
     color:rgb(170, 149, 95);
+    font-weight: bold;
 }
 
 .section-two .style-wrap{
@@ -161,6 +163,7 @@ header .links button{
     align-items: center;
 }
 .section-two .list .box img{
+    border-radius: 0.3rem;
     width:250px;
     height: 160px;
     object-fit: cover;
